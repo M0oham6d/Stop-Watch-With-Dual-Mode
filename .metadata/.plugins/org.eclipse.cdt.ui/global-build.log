@@ -1,0 +1,3595 @@
+09:20:45 **** Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8896 bytes (27.1% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+09:23:00 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../Stopwatch_With_Dual_Mode.c: In function 'main':
+../Stopwatch_With_Dual_Mode.c:604: error: redefinition of '__vector_7'
+../Stopwatch_With_Dual_Mode.c:40: error: previous definition of '__vector_7' was here
+../Stopwatch_With_Dual_Mode.c:745: error: redefinition of '__vector_1'
+../Stopwatch_With_Dual_Mode.c:181: error: previous definition of '__vector_1' was here
+../Stopwatch_With_Dual_Mode.c:758: error: redefinition of '__vector_2'
+../Stopwatch_With_Dual_Mode.c:194: error: previous definition of '__vector_2' was here
+../Stopwatch_With_Dual_Mode.c:767: error: redefinition of '__vector_3'
+../Stopwatch_With_Dual_Mode.c:203: error: previous definition of '__vector_3' was here
+../Stopwatch_With_Dual_Mode.c:1075: warning: 'main' is normally a non-static function
+make: *** [Stopwatch_With_Dual_Mode.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+09:23:04 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../Stopwatch_With_Dual_Mode.c: In function 'main':
+../Stopwatch_With_Dual_Mode.c:604: error: redefinition of '__vector_7'
+../Stopwatch_With_Dual_Mode.c:40: error: previous definition of '__vector_7' was here
+../Stopwatch_With_Dual_Mode.c:745: error: redefinition of '__vector_1'
+../Stopwatch_With_Dual_Mode.c:181: error: previous definition of '__vector_1' was here
+../Stopwatch_With_Dual_Mode.c:758: error: redefinition of '__vector_2'
+../Stopwatch_With_Dual_Mode.c:194: error: previous definition of '__vector_2' was here
+../Stopwatch_With_Dual_Mode.c:767: error: redefinition of '__vector_3'
+../Stopwatch_With_Dual_Mode.c:203: error: previous definition of '__vector_3' was here
+../Stopwatch_With_Dual_Mode.c:1075: warning: 'main' is normally a non-static function
+make: *** [Stopwatch_With_Dual_Mode.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+09:23:12 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../Stopwatch_With_Dual_Mode.c: In function 'main':
+../Stopwatch_With_Dual_Mode.c:604: error: redefinition of '__vector_7'
+../Stopwatch_With_Dual_Mode.c:40: error: previous definition of '__vector_7' was here
+../Stopwatch_With_Dual_Mode.c:745: error: redefinition of '__vector_1'
+../Stopwatch_With_Dual_Mode.c:181: error: previous definition of '__vector_1' was here
+../Stopwatch_With_Dual_Mode.c:758: error: redefinition of '__vector_2'
+../Stopwatch_With_Dual_Mode.c:194: error: previous definition of '__vector_2' was here
+../Stopwatch_With_Dual_Mode.c:767: error: redefinition of '__vector_3'
+../Stopwatch_With_Dual_Mode.c:203: error: previous definition of '__vector_3' was here
+../Stopwatch_With_Dual_Mode.c:1075: warning: 'main' is normally a non-static function
+make: *** [Stopwatch_With_Dual_Mode.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+09:24:29 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../Stopwatch_With_Dual_Mode.c:568:24: warning: "/*" within comment
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8892 bytes (27.1% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+09:24:57 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8896 bytes (27.1% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+09:27:11 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8900 bytes (27.2% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+09:29:42 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8926 bytes (27.2% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+09:30:01 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8926 bytes (27.2% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+09:42:36 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8926 bytes (27.2% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+09:47:07 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8926 bytes (27.2% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+09:48:10 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8926 bytes (27.2% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+09:48:33 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8932 bytes (27.3% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+09:48:58 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8932 bytes (27.3% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+09:53:35 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8932 bytes (27.3% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+09:54:05 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8932 bytes (27.3% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+09:54:39 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8926 bytes (27.2% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+09:55:09 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8926 bytes (27.2% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+09:57:49 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8926 bytes (27.2% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+09:58:56 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8926 bytes (27.2% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:00:43 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8926 bytes (27.2% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:01:01 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8926 bytes (27.2% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:01:18 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8926 bytes (27.2% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:01:39 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8926 bytes (27.2% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:04:25 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8922 bytes (27.2% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:04:34 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8924 bytes (27.2% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:04:50 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8922 bytes (27.2% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:06:23 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8924 bytes (27.2% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:09:41 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8924 bytes (27.2% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:10:05 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8924 bytes (27.2% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:11:04 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8924 bytes (27.2% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:14:34 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8928 bytes (27.2% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:14:51 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8928 bytes (27.2% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:16:47 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8928 bytes (27.2% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:18:08 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8928 bytes (27.2% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:20:30 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8936 bytes (27.3% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:21:14 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8928 bytes (27.2% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:21:26 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8930 bytes (27.3% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:23:12 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8936 bytes (27.3% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:23:47 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8938 bytes (27.3% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:24:30 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8938 bytes (27.3% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:26:11 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8894 bytes (27.1% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:26:38 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8936 bytes (27.3% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:27:16 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8936 bytes (27.3% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:28:18 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8938 bytes (27.3% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:29:20 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8940 bytes (27.3% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:29:43 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8938 bytes (27.3% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:33:52 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8940 bytes (27.3% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:34:50 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8938 bytes (27.3% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:36:19 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8936 bytes (27.3% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:36:41 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8936 bytes (27.3% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:38:39 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8968 bytes (27.4% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:38:47 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8968 bytes (27.4% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:39:23 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8968 bytes (27.4% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:39:54 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8968 bytes (27.4% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:40:34 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8968 bytes (27.4% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:41:05 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8968 bytes (27.4% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:41:34 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8962 bytes (27.3% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:42:35 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8946 bytes (27.3% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:43:37 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8946 bytes (27.3% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:44:27 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8946 bytes (27.3% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:46:21 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8950 bytes (27.3% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:48:44 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8954 bytes (27.3% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:16:10 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8744 bytes (26.7% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:19:21 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8634 bytes (26.3% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:25:54 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8634 bytes (26.3% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:27:27 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8610 bytes (26.3% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:28:24 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8638 bytes (26.4% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:29:00 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8638 bytes (26.4% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:29:45 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8638 bytes (26.4% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:10:23 **** Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8652 bytes (26.4% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:10:47 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8638 bytes (26.4% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:11:13 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8652 bytes (26.4% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:14:46 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8650 bytes (26.4% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:16:35 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8650 bytes (26.4% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:16:56 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8626 bytes (26.3% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:18:18 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8626 bytes (26.3% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:20:13 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8626 bytes (26.3% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:22:05 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8626 bytes (26.3% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:22:47 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8626 bytes (26.3% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:24:53 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8626 bytes (26.3% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:26:24 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8584 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:26:37 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8584 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:30:47 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8584 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:31:33 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8584 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:36:28 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8584 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:44:12 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8588 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:44:29 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8584 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:46:54 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+./Stopwatch_With_Dual_Mode.o: In function `main':
+../Stopwatch_With_Dual_Mode.c:506: undefined reference to `timre1_init'
+make: *** [Stopwatch_With_Dual_Mode.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:47:01 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8584 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:52:29 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8584 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:56:29 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8584 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:11:21 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8580 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:12:14 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8580 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:12:59 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8580 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:14:14 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8580 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:14:42 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8576 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:14:49 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8576 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:22:19 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../Stopwatch_With_Dual_Mode.c:468:25: warning: "/*" within comment
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8576 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:22:29 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8576 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:23:03 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8576 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:24:34 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8576 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:39:36 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8576 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:41:33 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8576 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:44:17 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8576 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:45:15 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8576 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:03:09 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8576 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:03:29 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8576 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:04:04 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8576 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:46:34 **** Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8576 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:47:13 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8576 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:55:10 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8576 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:55:54 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8576 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:57:56 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8576 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:40:43 **** Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Building file: ../Stopwatch_With_Dual_Mode.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Stopwatch_With_Dual_Mode.d" -MT"Stopwatch_With_Dual_Mode.o" -c -o "Stopwatch_With_Dual_Mode.o" "../Stopwatch_With_Dual_Mode.c"
+In file included from ../Stopwatch_With_Dual_Mode.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stopwatch_With_Dual_Mode.c
+ 
+Building target: Stopwatch_With_Dual_Mode.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stopwatch_With_Dual_Mode.map -mmcu=atmega32 -o "Stopwatch_With_Dual_Mode.elf"  ./Stopwatch_With_Dual_Mode.o   
+Finished building target: Stopwatch_With_Dual_Mode.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Stopwatch_With_Dual_Mode.elf  >"Stopwatch_With_Dual_Mode.lss"
+Finished building: Stopwatch_With_Dual_Mode.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8576 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:40:46 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8576 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 

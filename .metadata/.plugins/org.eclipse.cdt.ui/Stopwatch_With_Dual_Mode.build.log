@@ -1,0 +1,20 @@
+18:40:46 **** Incremental Build of configuration Debug for project Stopwatch_With_Dual_Mode ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Stopwatch_With_Dual_Mode.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8576 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+18:40:46 Build Finished. 0 errors, 0 warnings. (took 227ms)
+
